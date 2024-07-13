@@ -1,6 +1,7 @@
 {
   "name": "code-playground",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@nextui-org/react": "^2.4.2",
@@ -8,6 +9,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "firebase": "^10.12.3",
     "framer-motion": "^11.3.2",
     "init": "^0.1.2",
@@ -18,15 +20,14 @@
     "react-dom": "^18.3.1",
     "react-monaco-editor": "^0.55.0",
     "react-router-dom": "^6.24.1",
-    "react-scripts": "5.0.1",
     "react-simple-code-editor": "^0.14.1",
+    "vite": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
